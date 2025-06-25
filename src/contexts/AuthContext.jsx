@@ -18,7 +18,7 @@ export const AuthProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
 
   // Configure axios defaults
-  axios.defaults.baseURL = 'https://marketbooksolutionbackend-s77c.onrender.com/api';
+  axios.defaults.baseURL = 'https://marketbooksolutionbackend-3t06.onrender.com/api';
   
   useEffect(() => {
     const token = localStorage.getItem('token');
